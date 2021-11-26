@@ -1,0 +1,798 @@
+@media screen and (max-width: 1199px){
+    /*Хидер*/
+    .header {
+    height: auto;
+}
+.contact__btn-mob {
+    width: 3.39vw;
+    height: 3.39vw;
+}
+}
+@media screen and (max-width: 1024px){
+    body {
+    font-size: 4.38vw;
+    line-height: 5.31vw;
+}
+    .container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 6.25vw 0 6.25vw;
+}
+.title {
+    font-size: 6.88vw;
+    line-height: 8.13vw;
+    margin-bottom: 4.69vw;
+}
+
+/*Хидер*/
+.header {
+    padding: 3.13vw 6.25vw;
+}
+.logo,
+.contact__btn-mob {
+    margin-left: 0;
+    width: 11.25vw;
+    height: 11.25vw;
+}
+.contact__btn-mob img{
+    width: 6.88vw;
+    height: 6.88vw;
+}
+.contact__phone {
+    margin-right: 5.31vw;
+}
+.contact .phone__link {
+    font-size: 5vw;
+    line-height: 6vw;
+}
+.contact .phone__text {
+    font-size: 3.75vw;
+    line-height: 4.38vw;
+    padding-bottom: 0.16vw;
+}
+.contact__btn-click {
+    margin-left: 2.19vw;
+    padding-left: 3.13vw;
+}
+.contact__btn-click-line {
+    width: 1.56vw;
+    height: 1.56vw;
+}
+.contact__btn-click-line + .contact__btn-click-line {
+    margin-top: 0.94vw;
+}
+.nav__item + .nav__item {
+    margin-left: 0;
+    margin-top: 6.25vw;
+}
+.nav__link {
+    font-size: 4.38vw;
+    line-height: 5.31vw;
+}
+.nav {
+    padding: 15.63vw 6.25vw;
+}
+.hover__item {
+    margin-bottom: 6.25vw;
+    max-width: 100%;
+    width: 100%;
+}
+.hover__item-title {
+    font-size: 4.38vw;
+    line-height: 5.31vw;
+    margin-bottom: 3.13vw;
+}
+.hover__link {
+    font-size: 3.75vw;
+    line-height: 4.38vw;
+}
+.hover__hit-text1 {
+    font-size: 9.38vw;
+    line-height: 11.56vw;
+    margin-right: 9.38vw;
+    padding: 2.50vw 4.69vw 2.50vw 4.69vw;
+    border-radius: 2vw;
+}
+.hover__hit-text2 {
+    font-size: 4.38vw;
+    line-height: 5.31vw;
+}
+.hover__hit-wr {
+    max-width: 100%;
+}
+.hover {
+    padding-top: 18.75vw;
+    padding-bottom: 18.75vw;
+    top: 22.27vw;
+}
+/*Первый экран*/
+
+.main {
+    padding: 9.38vw 0 9.38vw 0;
+}
+    .main__title {
+    font-size: 7.50vw;
+    line-height: 9.38vw;
+    margin-bottom: 1.25vw;
+    max-width: 80.50vw;
+}
+    .main__descr {
+    font-size: 6.88vw;
+    line-height: 8.13vw;
+    margin-bottom: 7.24vw;
+    max-width: 75vw;
+}
+.quote__title {
+    font-size: 37.50vw;
+    line-height: 31vw;
+}
+.main__quote {
+    max-width: 100%;
+    margin-bottom: 60.56vw;
+}
+.quote__descr span {
+    margin-top: 1.78vw;
+}
+.main .btn {
+    max-width: 100%;
+}
+.btn__btn {
+    height: 15.63vw;
+    width: 15.63vw;
+    border-top-right-radius: 4.69vw;
+    border-bottom-right-radius: 4.69vw;
+}
+.btn__arrow {
+    width: 4.69vw;
+    height: 4.69vw;
+    border-top: 0.63vw solid #FFFFFF;
+    border-right: 0.63vw solid #FFFFFF;
+}
+.btn__text {
+    font-size: 5vw;
+    line-height: 5.94vw;
+    margin-right: 0.63vw;
+    height: 15.63vw;
+    border-top-left-radius: 4.69vw;
+    border-bottom-left-radius: 4.69vw;
+}
+.abs__text {
+    font-size: 13.88vw;
+    line-height: 12.88vw;
+    top: 91.16vw;
+    left: 2.03vw;
+}
+.abs__img-man {
+    width: 87.31vw;
+    height: 116.38vw;
+    top: 69.33vw;
+    left: 30.09vw;
+}
+.abs__person {
+    top: 131.86vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.abs__person-name {
+    top: -6.65vw;
+    font-size: 3.75vw;
+    line-height: 4.69vw;
+    border-radius: 2vw;
+}
+.abs__person-place {
+    font-size: 3.75vw;
+    line-height: 4.69vw;
+    border-radius: 2vw;
+}
+.main .abs__img-signature {
+    display: none;
+}
+
+
+/*Все необходимое*/
+.need {
+    padding: 9.38vw 0 9.38vw 0;
+}
+.need_wr {
+    display: block;
+}
+.need_title {
+    font-size: 6.88vw;
+    line-height: 8.13vw;
+    border-radius: 4.69vw;
+    padding: 4.69vw;
+    width: 100%;
+    margin-bottom: 3.13vw;
+}
+.need_link {
+    border-radius: 4.69vw;
+    padding: 4.69vw;
+    width: 100%;
+}
+.need_link_link {
+    font-size: 3.75vw;
+}
+.need_descr {
+    margin-bottom: 4.69vw;
+    margin-top: 9.38vw;
+}
+.need_link_title {
+    margin-bottom: 3.13vw;
+}
+.need_link_wr {
+    margin-bottom: 3.13vw;
+}
+.need_total {
+    border-radius: 4.69vw;
+    padding: 4.69vw;
+    width: 100%;
+    margin-bottom: 3.13vw;
+}
+.need_total:last-child{
+    margin-bottom: 0;
+}
+.need_total_title {
+    font-size: 4.38vw;
+    margin-bottom: 3.13vw;
+}
+.need_total_text {
+    font-size: 4.38vw;
+    line-height: 5.31vw;
+}
+
+/*Разработка сайтов*/
+
+.dev {
+    padding: 9.38vw 0 9.38vw 0;
+}
+.dev_price {
+    padding-bottom: 9.38vw;
+}
+.dev_title, .dev_descr {
+    text-align: center;
+    margin-bottom: 4.69vw;
+}
+.dev_descr_main {
+    margin-bottom: 9.38vw;
+}
+.dev_price_content {
+    display: block;
+}
+.dev_price_item {
+    padding: 4.69vw;
+    border-radius: 4.69vw;
+    width: 100%;
+    margin-bottom: 3.13vw;
+}
+.dev_price_title {
+    font-size: 4.38vw;
+    margin-bottom: 3.13vw;
+}
+.dev_price_descr {
+    font-size: 4.38vw;
+    line-height: 5.31vw;
+    margin-bottom: 3.13vw;
+    width: 100%;
+}
+.dev_price_wr {
+    margin-bottom: 3.13vw;
+}
+.dev_price_item_img {
+    width: 9.38vw;
+    height: 9.38vw;
+    margin-right: 3.13vw;
+}
+.dev_price_inner {
+    margin-right: 3.13vw;
+}
+.dev_price_item .btn {
+    width: 100%;
+}
+.dev_price_item_number {
+    display: none;
+}
+.dev_price_item:last-child{
+    margin-bottom: 0;
+}
+
+/*Разработка сайтов - Что входит*/
+
+.dev_have .container {
+    padding-left: 12.3vw;
+    padding-right: 12.3vw;
+}
+.dev_have_wr li {
+    font-size: 4.38vw;
+    width: 100%;
+}
+.dev_have {
+    padding: 0;
+}
+/*Разработка сайтов - Портфолио*/
+.dev_port {
+    padding-top: 0;
+}
+.dev_port_img {
+    width: 100%;
+    border-radius: 4.69vw;
+    margin-bottom: 3.13vw;
+}
+/*.dev_port_slider .owl-nav {
+    display: none !important;
+}*/
+.dev_port_slider .owl-nav button span {
+    font-size: 22vw;
+}
+.dev_port_text {
+    font-size: 3.75vw;
+}
+
+/*Контекстная реклама*/
+.ad {
+    padding: 9.38vw 0 9.38vw 0;
+}
+.ad_title, .ad_descr {
+    margin-bottom: 4.69vw;
+}
+.ad_descr_main {
+    margin-bottom: 9.38vw;
+}
+
+/*Контекстная реклама - tuning*/
+.tuning {
+    border-radius: 4.69vw;
+    padding: 4.69vw;
+}
+.tuning_title {
+    display: block;
+}
+.tuning_title_img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3.13vw; 
+}
+.tuning_title .btn {
+    width: 100%;
+}
+.tuning_text {
+    border-radius: 4.69vw;
+    padding: 4.69vw;
+    margin-top: 3.13vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.tuning_text_text {
+    font-size: 3.75vw;
+    padding-left: 1.56vw;
+    margin-right: 1.56vw;
+}
+.tuning + .tuning {
+    margin-top: 3.13vw;
+}
+
+/*Контекстная реклама - price*/
+.ad_price {
+    padding: 0;
+}
+.ad_price_text {
+    font-size: 4.38vw;
+    line-height: 5.31vw;
+}
+
+/*Контекстная реклама - tarif*/
+.ad_tarif_wr {
+    display: block;
+}
+.ad_tarif_item {
+    border-radius: 4.69vw;
+    padding: 4.69vw;
+    width: 100%;
+    margin-bottom: 3.13vw;
+}
+.ad_tarif_item_form {
+    margin-bottom: 0;
+}
+.ad_tarif_item_title {
+    font-size: 4.38vw;
+    margin-bottom: 3.13vw;
+}
+.ad_tarif_item_text {
+    font-size: 3.75vw;
+    line-height: 5.31vw;
+    margin-bottom: 3.13vw;
+}
+.ad_tarif_item_wr {
+    display: block;
+}
+.ad_tarif_item_wr_wr {
+    display: flex;
+    justify-content: space-between;
+}
+.ad_tarif_item_form {
+    flex-direction: column;
+}
+.ad_tarif_item_form .ad_tarif_item_inner {
+    width: 100%;
+    display: block;
+}
+.ad_tarif_item_form .ad_tarif_item_title {
+    margin-bottom: 3.13vw;
+}
+.ad_tarif_item-img {
+    width: 100%;
+    margin-bottom: 3.13vw;
+    border-radius: 4.69vw;
+}
+.ad_tarif_item_form .form {
+    width: 100%;
+    max-width: 100%;
+}
+.form_field {
+    padding: 3.75vw 6.25vw 3.75vw 6.25vw;
+    margin-bottom: 3.13vw;
+    border-radius: 3.13vw;
+}
+.form_field input, .form_field option {
+    line-height: 5.31vw;
+    font-size: 4.38vw;
+}
+.form_field img {
+    width: 5.63vw;
+    height: 5.63vw;
+}
+.filter__checkbox-fake {
+    min-width: 7.81vw;
+    height: 7.81vw;
+    margin-right: 3.13vw;
+    border-radius: 1.56vw;
+}
+.filter__checkbox-fake::after {
+    width: 5.94vw;
+    height: 3.13vw;
+    border-left: 0.94vw solid #fff;
+    border-bottom: 0.94vw solid #fff;
+}
+.filter__checkbox-title {
+    font-size: 3.13vw;
+    line-height: 3.75vw;
+}
+.form .filter__checkbox {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.13vw;
+    margin-bottom: 4.69vw;
+}
+
+/*Контекстная реклама - total*/
+.ad_total{
+    padding-top: 0;
+}
+.total_item {
+    border-radius: 4.69vw;
+    padding: 4.69vw;
+    display: block;
+}
+.total_img {
+    border-radius: 4.69vw;
+    width: 100%;
+    margin-right: 0;
+}
+.total_title {
+    font-size: 3.75vw;
+    font-weight: bold;
+    margin-bottom: 3.13vw;
+    margin-top: 3.13vw;
+    text-align: center;
+}
+.total_item_wr {
+    border-radius: 4.69vw;
+    padding: 4.69vw;
+    margin-bottom: 3.13vw;
+}
+.total_undertitle, .total_text {
+    font-size: 3.75vw;
+    line-height: 4vw;
+}
+.total_undertitle {
+    margin-bottom: 3.13vw;
+}
+.total_wr_wr {
+    display: block;
+}
+.total_item_wr + .total_item_wr .total_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total_slider .owl-nav .owl-prev {
+    left: -3.65vw;
+}
+.total_slider .owl-nav .owl-next {
+    right: -3.65vw;
+}
+.total_slider .owl-nav button span {
+    font-size: 22vw;
+}
+/*smm-продвижение*/
+
+.smm {
+    padding: 9.38vw 0 9.38vw 0;
+}
+.smm_title, .smm_descr {
+    text-align: center;
+    margin-bottom: 4.69vw;
+}
+.smm_descr_main {
+    margin-bottom: 9.38vw;
+}
+.smm_wr {
+    display: block;
+    margin-top: 0;
+}
+.smm_item {
+    width: 100%;
+    border-radius: 4.69vw;
+    padding: 4.69vw;
+    margin-bottom: 3.13vw;
+}
+.smm_item_text li::before {
+    width: 6.25vw;
+    height: 6.25vw;
+    font-size: 4.04vw;
+    line-height: 4.04vw;
+    border-radius: 1.56vw;
+}
+.smm_item_text li {
+    font-size: 3.75vw;
+    line-height: 4.69vw;
+    margin-bottom: 3.13vw;
+    padding-left: 7.50vw;
+    position: relative;
+}
+.smm_item_title, .smm_item_time, .smm_item_price {
+    font-size: 4.38vw;
+    margin-bottom: 3.13vw;
+}
+.smm_item_wide .smm_item_text {
+    display: block;
+}
+.smm_item_wide .smm_item_text .smm_item_text_text {
+    width: 100%;
+}
+.smm_item_wide .smm_item_wr + .smm_item_wr {
+    display: block;
+}
+.smm_item_wide .smm_item_time {
+    margin-bottom: 3.13vw;
+}
+.smm_item_wide .smm_item_price {
+    text-align: center;
+    margin-bottom: 3.13vw;
+}
+.smm_item_wide .smm_item_wr + .smm_item_wr .btn {
+    width: 100%;
+}
+
+/*smm-продвижение - разовые*/
+
+.smm_single {
+    padding-top: 0;
+}
+.single_wr {
+    display: block;
+    padding: 4.69vw;
+    border-radius: 4.69vw;
+}
+.form {
+    max-width: 100%;
+}
+.single_wr .filter__checkbox {
+    margin-bottom: 0;
+}
+.single_list li {
+    font-size: 3.75vw;
+    line-height: 4.69vw;
+    padding-left: 7.50vw;
+    margin-bottom: 3.13vw;
+}
+.single_list li::before {
+    width: 6.25vw;
+    height: 6.25vw;
+    font-size: 4.04vw;
+    line-height: 4.04vw;
+    border-radius: 1.56vw;
+}
+.form_field_select {
+    height: 13.39vw;
+}
+
+/*smm-продвижение - специалисты*/
+.smm_key {
+    padding-top: 0;
+}
+.key_wr {
+    display: block;
+}
+.key_item {
+    width: 100%;
+    margin-bottom: 3.13vw;
+}
+.key_item + .key_item{
+    margin-bottom: 0;
+}
+.key_img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3.13vw;
+}
+.key_img img {
+    border-radius: 4.69vw;
+}
+.key_name, .key_work {
+    font-size: 3.75vw;
+    line-height: 4.75vw;
+}
+
+/*smm-продвижение - успехи*/
+.smm_success{
+    padding-top: 0;
+}
+.success_item {
+    display: block;
+    width: 100%;
+}
+.smm_success .owl-carousel .owl-stage {
+    display: block;
+}
+.success_img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 3.13vw;
+}
+.success_img img {
+    border-radius: 4.69vw;
+}
+.success_title {
+    font-size: 4.38vw;
+    margin-bottom: 3.13vw;
+    text-align: center;
+}
+.success_undertitle, .success_text {
+    font-size: 3.75vw;
+    line-height: 4.75vw;
+}
+.success_undertitle {
+    margin-bottom: 3.13vw;
+}
+.success_wr + .success_wr{
+    margin-top: 3.13vw;
+}
+.success_slider .owl-nav .owl-prev {
+    left: -3.65vw;
+}
+.success_slider .owl-nav .owl-next {
+    right: -3.65vw;
+}
+.success_slider .owl-nav button span {
+    font-size: 22vw;
+}
+
+/*SEO продвижение*/
+.seo {
+    padding: 9.38vw 0 9.38vw 0;
+}
+.seo_descr {
+    margin-bottom: 4.69vw;
+}
+.seo_descr + .seo_descr{
+    margin-bottom: 9.38vw;
+}
+.seo_wr {
+    display: block;
+}
+.seo_item + .seo_item {
+    margin-left: 0;
+    margin-top: 3.13vw;
+}
+.seo_item {
+    border-radius: 4.69vw;
+    width: 100%;
+}
+.seo_item .btn__text {
+    border-bottom-left-radius: 0;
+}
+
+.seo_item .btn__btn {
+    border-bottom-right-radius: 0;
+}
+.seo_item__title, .seo_item__price, .seo_item__text {
+    margin-bottom: 3.13vw;
+}
+.seo_item__title, .seo_item__price {
+    font-size: 4.38vw;
+}
+.seo_item__title {
+    border-radius: 4.69vw;
+    height: 15.63vw;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.seo_item__text {
+    font-size: 3.75vw;
+    line-height: 4.25vw;
+}
+
+/*Футер*/
+.footer {
+    padding: 9.38vw 0 9.38vw 0;
+}
+.footer__logo {
+    min-width: 18.75vw;
+    height: 18.75vw;
+    width: 18.75vw;
+    margin-bottom: 9.38vw;
+}
+.footer__phone, .footer .btn {
+    margin-bottom: 3.13vw;
+}
+.footer__phone-link {
+    font-size: 6.88vw;
+    line-height: 8.44vw;
+}
+.footer__phone-img {
+    border-radius: 1.56vw;
+    width: 9.38vw;
+    height: 9.38vw;
+    margin-right: 3.13vw;
+}
+.footer__phone-img img {
+    width: 6.88vw;
+    height: 6.88vw;
+}
+.footer__icon-img {
+    width: 12.50vw;
+    height: 12.50vw;
+    border-radius: 2.56vw;
+}
+.footer__icon-img + .footer__icon-img {
+    margin-left: 6.25vw;
+}
+.footer__wr + .footer__wr {
+    margin-top: 25vw;
+}
+.footer__copy, .footer__politic {
+    font-size: 3.75vw;
+    line-height: 4.75vw;
+}
+.footer__wr {
+    display: block;
+}
+.footer__title {
+    font-size: 5vw;
+    line-height: 5vw;
+    margin-bottom: 3.13vw;
+    margin-top: 6.25vw;
+}
+.footer__link {
+    font-size: 4.38vw;
+    line-height: 5.31vw;
+}
+/*Наверх*/
+#toTop {
+    width: 25.38vw;
+    padding: 3.13vw;
+    bottom: 3.13vw;
+    right: 3.13vw;
+    font-size: 3.75vw;
+    border-radius: 2.56vw;
+    opacity: 0.5;
+}
+#toTop:hover{
+    opacity: 1;
+}
+
+}
