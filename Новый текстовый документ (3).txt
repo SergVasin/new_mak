@@ -1,0 +1,39 @@
+$(document).ready(function () {
+	if ($(window).width() < 1740) {
+		$(".risk_table_add table tbody tr td:first-child").prepend("<h3>Описание риска</h3>");
+		$(".risk_table_add table tbody tr td:last-child").prepend("<h3>Как мы защитим вас от этого?</h3>");
+		$(".risk_table table tbody tr td:nth-child(2)").prepend("<h3>Штатная бухгалтерия</h3>");
+		$(".risk_table table tbody tr td:last-child").prepend("<h3>DaConsultGroup</h3>");
+		$('.risk_table_add table tbody td h3').addClass("risk__item-title");
+		$('.risk_table table tbody td h3').addClass("risk__item-title");
+	}
+	else {
+	    $('.risk_table_add table tbody td h3').remove();
+	    $('.risk_table table tbody td h3').remove();
+    }
+});
+
+
+
+
+$(document).ready(function () {
+	function checkWidth() {
+		var windowWidth = $('body').innerWidth(),
+		elem = $(".team-main__wr");
+
+		if (windowWidth < 979) {
+			elem.addClass('owl-carousel');
+			elem.addClass('team__wr-add');
+		}
+		else {
+			elem.removeClass('owl-carousel');
+			elem.removeClass('team__wr-add');
+		}
+	}
+
+	checkWidth();
+
+	$(window).resize(function () {
+		checkWidth();
+	});
+});
